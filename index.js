@@ -1,5 +1,14 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+const
+wordLowerCase=word.toLowerCase();
+const
+wordSeparate=wordLowerCase.split("").reverse().join("")
+if(wordLowerCase===wordSeparate)
+{
+  return true;
+}else{
+  return false;
+}
 }
 
 /* 
